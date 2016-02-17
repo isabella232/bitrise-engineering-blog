@@ -2,7 +2,7 @@
   "name": "Bitrise Engineering Blog",
   "description": "The open source behind Bitrise",
   "logo": "https://bitrise-prod-web-assets.s3.amazonaws.com/assets/header/logo-cbca2bb326961c19680c47bead907dad6e9e7be493a2173da7448128fa3bd408.svg",
-  "repository": "https://github.com/vasarhelyia/ghost-on-heroku",
+  "repository": "https://github.com/vasarhelyia/bitrise-engineering-blog",
   "success_url": "/ghost",
   "addons": [
     "heroku-postgresql",
