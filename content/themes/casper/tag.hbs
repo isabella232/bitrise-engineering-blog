@@ -4,8 +4,14 @@
 {{! If we have a tag cover, display that - else blog cover - else nothing }}
 <header class="main-header tag-head {{#if tag.image}}" style="background-image: url({{tag.image}}){{else}}{{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}{{/if}}">
     <nav class="main-nav overlay clearfix tag-page">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-        <a class="bitrise-homepage" href="#"><span class="word">Try Bitrise for free</span></a>
+        {{#if @blog.logo}}
+            <a class="blog-logo" href="{{@blog.url}}">
+                <img src="{{@blog.logo}}" alt="{{@blog.title}}" />
+            </a>
+        {{/if}}
+        <a class="bitrise-homepage" href="#">
+            <span class="word">Try Bitrise for free</span>
+        </a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
@@ -55,7 +61,7 @@
                 </li>
                 <li class="top">
                     <div class="icon github">
-                        <a href="https://github.com/bitrise-iobitrise">Github</a>
+                        <a href="https://github.com/bitrise-io">Github</a>
                     </div>
                 </li>
                 <li class="top">
