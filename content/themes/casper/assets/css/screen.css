@@ -628,13 +628,13 @@ margin on the iframe, cause it breaks stuff. */
 .content .articles-addon .articles-addon-inner .top .icon.twitter,
 .content .articles-addon .articles-addon-inner .top a.twitter {
     background-image: url("/images/twitter_green.svg");
-    background-size: 18px auto;
+    background-size: auto 16px;
 }
 
 .content .articles-addon .articles-addon-inner .top .icon.github,
 .content .articles-addon .articles-addon-inner .top a.github {
     background-image: url("/images/github_green.svg");
-    background-size: 19px auto;
+    background-size: auto 19px;
 }
 
 .content .articles-addon .articles-addon-inner .top .icon.bitrise,
@@ -1867,7 +1867,7 @@ body:not(.post-template) .post-title {
 .site-footer {
     position: relative;
     margin: 0;
-    color: #585A59;;
+    color: #585A59;
     background-color: #e2e2e1;
     padding: 20px 40px;
     text-align: center;
