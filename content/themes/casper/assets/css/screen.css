@@ -586,7 +586,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .content .articles-addon .articles-addon-inner section.subscribe .subscribe-form input {
-    color: #b0b0b0;
+    color: black;
     background-color: white;
     border: none;
 }
@@ -714,7 +714,7 @@ margin on the iframe, cause it breaks stuff. */
 /* Centres vertically yo. (IE8+) */
 .vertical {
     display: table-cell;
-    padding-top: 100px;
+    padding-top: 160px;
 }
 
 /* Wraps the main content & footer */
@@ -1123,6 +1123,10 @@ body.nav-opened .nav {
     margin: 4rem auto;
 }
 
+.content .articles .articles-inner article.post header.post-header {
+    margin-bottom: 15px;
+}
+
 .no-cover .main-nav.overlay {
     background: none;
 }
@@ -1205,7 +1209,9 @@ body.nav-opened .nav {
 }
 
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 32px;
+    line-height: inherit;
+    margin-bottom: 0;
 }
 
 .post-title a {
@@ -1292,12 +1298,15 @@ body:not(.post-template) .post-title {
 }
 
 .post-header-tags a {
-    color: #9EABB3;
+    color: #585A59;
     text-decoration: none;
+    background-color: #ebdef6;
+    padding: 3px 10px;
+    border-radius: 3px;
 }
 
 .post-header-tags a:hover {
-    color: #2e2e2e;
+    background-color: #decdec;
 }
 
 .user-image {
@@ -1519,6 +1528,10 @@ body:not(.post-template) .post-title {
 
 .tag-head.main-header {
     height: 250px
+}
+
+.tag-head.main-header .vertical {
+    padding-top: 110px;
 }
 
 .no-cover.author-head.main-header {
@@ -1935,7 +1948,9 @@ body:not(.post-template) .post-title {
     }
 
     body:not(.post-template) .post-title {
-        font-size: 3.2rem;
+        font-size: 32px;
+        line-height: inherit;
+        margin-bottom: 0;
     }
 
     hr {
@@ -2032,6 +2047,8 @@ body:not(.post-template) .post-title {
 @media only screen and (max-width: 768px) {
 
     .content {
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
@@ -2232,7 +2249,9 @@ body:not(.post-template) .post-title {
     }
 
     body:not(.post-template) .post-title {
-        font-size: 2.5rem;
+        font-size: 28px;
+        line-height: inherit;
+        margin-bottom: 0;
     }
 
     .post-template .site-footer {
