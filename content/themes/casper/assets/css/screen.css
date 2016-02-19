@@ -25,7 +25,7 @@
    0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
    ========================================================================== */
 
-html { 
+html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -71,7 +71,7 @@ button, input, optgroup, select, textarea {
 }
 button { overflow: visible; }
 button, select { text-transform: none; }
-button, html input[type="button"], 
+button, html input[type="button"],
 input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
@@ -183,7 +183,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: "Open Sans", "Merriweather", serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -441,6 +441,248 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 
+.content {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.content .articles {
+    width: 100%;
+}
+
+.content.author {
+    border-top: 1px solid #3bc3a3;
+}
+
+.content .articles-addon {
+    max-width: 340px;
+    background-color: #f2fdfb;
+    border-left: 1px solid #3bc3a3;
+    flex-shrink: 0;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+
+.content .articles-addon .articles-addon-inner h3 {
+    padding: 25px;
+    line-height: 25px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #3bc3a3;
+}
+
+.content .articles-addon .articles-addon-inner h3 a {
+    text-transform: none;
+    color: #2a2a2a;
+    letter-spacing: 0px;
+    padding-left: 10px;
+}
+
+
+.content .articles-addon .articles-addon-inner li {
+    list-style-type: none;
+    margin-top: 15px;
+    padding-right: 25px;
+}
+
+.content .articles-addon .articles-addon-inner li h3 a {
+    float: left;
+    display: block;
+}
+
+.content .articles-addon .articles-addon-inner li img {
+    display: block;
+    float: left
+}
+
+.content .articles-addon .articles-addon-inner .top {
+    clear: both;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    vertical-align: middle;
+    border-bottom: 1px solid #3bc3a3;
+}
+
+.content .articles-addon .articles-addon-inner .top.first {
+    clear: both;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+    list-style-type: none;
+    vertical-align: middle;
+    border-bottom: 1px solid #3bc3a3;
+}
+
+.content .articles-addon .articles-addon-inner .top.last {
+    clear: both;
+    overflow: hidden;
+    margin: 0;
+    padding-bottom: 0;
+    list-style-type: none;
+    vertical-align: middle;
+    border-bottom: none;
+}
+
+.content .articles-addon .articles-addon-inner .top .icon {
+    background-size: 15px auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 35px;
+    color: #3bc3a3;
+}
+
+.content .articles-addon .articles-addon-inner section {
+    padding: 25px;
+    border-bottom: 1px solid #3bc3a3;
+}
+
+.content .articles-addon .articles-addon-inner section.posts li {
+    padding-top: 15px;
+    border-top: 1px solid #3bc3a3;
+}
+
+.content .articles-addon .articles-addon-inner section.search {
+    display: none;
+}
+
+.content .articles-addon .articles-addon-inner section.subscribe {
+    background-color: #3bc3a3;
+    display: block;
+}
+
+.content .articles-addon .articles-addon-inner section.subscribe h4 {
+    color: white;
+    margin: 10px 0;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.content .articles-addon .articles-addon-inner section.subscribe p {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.content .articles-addon .articles-addon-inner section.subscribe .subscribe-form  {
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+}
+
+.content .articles-addon .articles-addon-inner section.subscribe .subscribe-form input,
+.content .articles-addon .articles-addon-inner section.subscribe .subscribe-form button {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.content .articles-addon .articles-addon-inner section.subscribe .subscribe-form input {
+    color: #b0b0b0;
+    background-color: white;
+    border: none;
+}
+
+.content .articles-addon .articles-addon-inner section.subscribe .subscribe-form input:focus {
+    outline: none;
+}
+
+.content .articles-addon .articles-addon-inner section.subscribe .subscribe-form button {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.content .articles-addon .articles-addon-inner section.subscribe .subscribe-form button:hover {
+    background-color: #3aa792;
+    color: white;
+}
+
+.content .articles-addon .articles-addon-inner h3 {
+    color: #3bc3a3;
+    margin: 0;
+}
+
+.content .articles-addon .articles-addon-inner .top .icon,
+.content .articles-addon .articles-addon-inner .top a {
+    color: #3bc3a3;
+    height: 30px;
+    text-decoration: none;
+    transition: none;
+}
+
+.content .articles-addon .articles-addon-inner .top .icon.rss,
+.content .articles-addon .articles-addon-inner .top a.rss {
+    background-image: url("/images/rss_icon_green.svg");
+    background-size: 16px;
+}
+
+.content .articles-addon .articles-addon-inner .top .icon.twitter,
+.content .articles-addon .articles-addon-inner .top a.twitter {
+    background-image: url("/images/twitter_green.svg");
+    background-size: 18px 15px;
+}
+
+.content .articles-addon .articles-addon-inner .top .icon.github,
+.content .articles-addon .articles-addon-inner .top a.github {
+    background-image: url("/images/github_green.svg");
+    background-size: 19px;
+}
+
+.content .articles-addon .articles-addon-inner .top .icon.bitrise,
+.content .articles-addon .articles-addon-inner .top a.bitrise {
+    background-image: url("/images/bitrise_green.svg");
+    background-size: 19px;
+}
+
+.content .articles-addon .articles-addon-inner .top .icon.updates,
+.content .articles-addon .articles-addon-inner .top a.updates {
+    background-image: url("/images/updates_green.svg");
+    background-size: 17px;
+}
+
+.content .articles-addon .articles-addon-inner .top .icon:hover,
+.content .articles-addon .articles-addon-inner .top .icon:hover a {
+    color: #8151a8;
+}
+
+.content .articles-addon .articles-addon-inner .tags li {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    color: #724794;
+    padding-bottom: 15px;
+}
+
+.content .articles-addon .articles-addon-inner .tags li a {
+    text-decoration: none;
+    background-color: #ebdef6;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+.content .articles-addon .articles-addon-inner .tags li a p {
+    color: #585A59;
+}
+
+.content .articles-addon .articles-addon-inner .tags li a:hover{
+    background-color: #decdec;
+}
+
+.clear {
+    clear: both;
+}
+
+
 /* ==========================================================================
    3. Utilities - These things get used a lot
    ========================================================================== */
@@ -472,7 +714,7 @@ margin on the iframe, cause it breaks stuff. */
 /* Centres vertically yo. (IE8+) */
 .vertical {
     display: table-cell;
-    vertical-align: middle;
+    padding-top: 100px;
 }
 
 /* Wraps the main content & footer */
@@ -504,8 +746,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
-    margin-bottom: 5rem;
+    height: 415px;
     text-align: center;
     background: #222 no-repeat center center;
     background-size: cover;
@@ -715,7 +956,7 @@ body.nav-opened .nav {
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
-    display: block;
+    display: none;
     position: absolute;
     z-index: 100;
     bottom: 45px;
@@ -782,11 +1023,13 @@ body.nav-opened .nav {
     width: auto;
 }
 
-.menu-button {
+.menu-button, .bitrise-homepage {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
+    color: #fff;
+    border-color: #fff;
     float: right;
     height: 38px;
     padding: 0 15px;
@@ -795,23 +1038,23 @@ body.nav-opened .nav {
     opacity: 1;
     text-align: center;
     font-size: 12px;
-    text-transform: uppercase;
     line-height: 35px;
     white-space: nowrap;
     border-radius: 3px;
     transition: all 0.5s ease;
 }
-.menu-button:before {
+.menu-button:before, .bitrise-homepage:before {
     font-size: 12px;
     font-weight: bold;
     margin-right: 6px;
     position: relative;
     top: 1px;
 }
-.menu-button:hover {
+.menu-button:hover, .bitrise-homepage:hover {
     background: #fff;
+    color: #3aa792;
 }
-.menu-button:focus {
+.menu-button:focus, .bitrise-homepage:focus {
     outline: 0;
 }
 
@@ -857,10 +1100,29 @@ body.nav-opened .nav {
     top: 0;
     left: 0;
     right: 0;
-    height: 70px;
+    height: 345px;
     border: none;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
+    background-color: rgba(49, 190, 167, 0.6);
 }
+
+.main-nav.overlay.author,
+.main-nav.overlay.article-page {
+    height: 38px;
+}
+
+.main-nav.overlay.tag-page {
+    height: 180px;
+}
+
+.main-nav.article-page {
+    height: 38px;
+    margin-bottom: 0;
+}
+
+.content .articles .articles-inner article.post {
+    margin: 4rem auto;
+}
+
 .no-cover .main-nav.overlay {
     background: none;
 }
@@ -877,6 +1139,7 @@ body.nav-opened .nav {
 
 .page-description {
     margin: 0;
+    margin-bottom: 20px;
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
@@ -960,11 +1223,14 @@ body:not(.post-template) .post-title {
 }
 
 .post-meta {
-    display: block;
+    display: inline;
     margin: 1.75rem 0 0 0;
+    padding-right: 5px;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
     line-height: 2.2rem;
+    letter-spacing: 0.01rem;
     color: #9EABB3;
 }
 
@@ -999,6 +1265,39 @@ body:not(.post-template) .post-title {
     text-transform: uppercase;
     font-size: 1.3rem;
     white-space: nowrap;
+}
+
+.post-header-date {
+    display: inline-block;
+    color: #9EABB3;
+    padding-left: 6px;
+    border-left: 1px solid #BFC8CD;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.post-header-tags {
+    display: inline-block;
+    color: #9EABB3;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.01rem;
+    white-space: nowrap;
+}
+
+.post-header-tags a {
+    color: #9EABB3;
+    text-decoration: none;
+}
+
+.post-header-tags a:hover {
+    color: #2e2e2e;
 }
 
 .user-image {
@@ -1203,9 +1502,9 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .post-head.main-header {
-    height: 65vh;
-    min-height: 180px;
+    height: 108px;
 }
+
 
 .no-cover.post-head.main-header {
     height: 85px;
@@ -1214,14 +1513,12 @@ body:not(.post-template) .post-title {
     background: transparent;
 }
 
-.tag-head.main-header {
-    height: 40vh;
-    min-height: 180px;
+.author-head.main-header {
+    height: 108px;
 }
 
-.author-head.main-header {
-    height: 40vh;
-    min-height: 180px;
+.tag-head.main-header {
+    height: 250px
 }
 
 .no-cover.author-head.main-header {
@@ -1232,24 +1529,7 @@ body:not(.post-template) .post-title {
 
 .author-profile {
     padding: 0 15px 5rem 15px;
-    border-bottom: #EBF2F6 1px solid;
     text-align: center;
-}
-
-/* Add a little circle in the middle of the border-bottom */
-.author-profile:after {
-    display: block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    border: #E7EEF2 1px solid;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -5px;
-    background: #FFF;
-    border-radius: 100%;
-    box-shadow: #FFF 0 0 0 5px;
 }
 
 .author-image {
@@ -1554,11 +1834,6 @@ body:not(.post-template) .post-title {
     width: auto;
 }
 
-/* On page2+ make all the headers smaller */
-.archive-template .main-header {
-    max-height: 30vh;
-}
-
 /* On page2+ show extra pagination controls at the top of post list */
 .archive-template .extra-pagination {
     display: block;
@@ -1571,12 +1846,16 @@ body:not(.post-template) .post-title {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
-    padding: 1rem 15px;
+    margin: 0;
+    color: #585A59;;
+    background-color: #e2e2e1;
+    padding: 20px 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
     font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    line-height: 1.75em;
-    color: #BBC7CC;
+    line-height: 24px;
+    letter-spacing: 1px;
 }
 
 .site-footer a {
@@ -1598,38 +1877,44 @@ body:not(.post-template) .post-title {
 
 .copyright {
     display: block;
-    width: 45%;
-    float: left;
+    width: 100%;
+    margin: 0 auto;
 }
 
 
 /* ==========================================================================
-   11. Media Queries - Smaller than 900px
+   11. Media Queries - Smaller than 992px
    ========================================================================== */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 992px) {
 
     blockquote {
         margin-left: 0;
+    }
+
+    .content .articles-addon {
+        max-width: 280px;
     }
 
     .main-header {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        height: auto;
-        min-height: 240px;
-        height: 60vh;
-        padding: 15% 0;
+        height: 345px;
+    }
+
+    .main-nav.overlay {
+        height: 275px;
+    }
+
+    /* Centres vertically yo. (IE8+) */
+    .vertical {
+        display: table-cell;
+        padding-top: 130px;
     }
 
     .scroll-down,
     .home-template .main-header:after { display: none; }
-
-    .archive-template .main-header {
-        min-height: 180px;
-        padding: 10% 0;
-    }
 
     .blog-logo img {
         padding: 4px 0;
@@ -1702,13 +1987,12 @@ body:not(.post-template) .post-title {
         font-size: 1.6rem;
     }
 
-    .post-head.main-header {
-        height:45vh;
+    .author-head.main-header {
+        height: 108px;
     }
 
-    .tag-head.main-header,
-    .author-head.main-header {
-        height: 30vh;
+    .tag-head.main-header {
+        height: 250px
     }
 
     .no-cover.post-head.main-header {
@@ -1742,28 +2026,71 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   12. Media Queries - Smaller than 500px
+   12. Media Queries - Smaller than 768px
    ========================================================================== */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
 
-    .main-header {
-        margin-bottom: 15px;
-        height: 40vh;
+    .content {
+        flex-direction: column-reverse;
     }
 
-    .no-cover.main-header {
-        height: 30vh;
+    .content .articles {
+        order: 2;
     }
 
-    .archive-template .main-header {
-        max-height: 20vh;
-        min-height: 160px;
-        padding: 10% 0;
+    .content .articles-addon {
+        max-width: 100%;
+        border-left: 0;
+        order: 1;
+    }
+
+    .content .articles-addon .articles-addon-inner section {
+        padding: 15px;
+    }
+
+    .content .articles-addon .articles-addon-inner section.subscribe h4 {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+
+    .content .articles-addon .articles-addon-inner section.subscribe p {
+        margin-bottom: 10px;
+    }
+
+    .content .articles-addon .articles-addon-inner section.subscribe .subscribe-form {
+        margin: 0;
+    }
+
+    .content .articles-addon .articles-addon-inner .top.first {
+        padding-bottom: 15px;
+    }
+
+    .content .articles-addon .articles-addon-inner .top {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .content .articles-addon .articles-addon-inner .top.last {
+        padding-top: 15px;
+    }
+
+    .content .articles-addon .articles-addon-inner h3 {
+        padding: 15px;
+    }
+
+    .content .articles-addon .articles-addon-inner ul.tags {
+        padding-left: 25px;
+        display: flex;
+        display: -webkit-flex;
+    }
+
+    .content .articles-addon .articles-addon-inner ul.tags li {
+        padding: 10px;
     }
 
     .main-nav {
-        padding: 5px;
+        padding: 35px 15px;
         margin-bottom: 2rem;
     }
 
@@ -1792,10 +2119,11 @@ body:not(.post-template) .post-title {
         border: transparent;
     }
 
-    .main-nav.overlay a:hover {
-        color: #fff;
-        border-color: transparent;
-        background: transparent;
+    /* Centres vertically yo. (IE8+) */
+    .vertical {
+        display: table-cell;
+        /*vertical-align: middle;*/
+        padding-top: 130px;
     }
 
     .no-cover .main-nav.overlay {
@@ -1830,7 +2158,7 @@ body:not(.post-template) .post-title {
     }
 
     .post {
-        width: auto;
+        width: 90%;
         margin-top: 2rem;
         margin-bottom: 2rem;
         margin-left: 16px;
@@ -1969,15 +2297,6 @@ body:not(.post-template) .post-title {
 
     .author-profile {
         padding-bottom: 2rem;
-    }
-
-    .post-head.main-header {
-        height: 30vh;
-    }
-
-    .tag-head.main-header,
-    .author-head.main-header {
-        height: 20vh;
     }
 
     .author-profile .author-image {

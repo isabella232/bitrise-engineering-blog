@@ -1,0 +1,76 @@
+{
+	"team": {
+		"birmacher": {
+			"full_name": "Barnabas Birmacher",
+			"position": "CEO",
+			"email_address": "birmacher@bitrise.io",
+			"twitter": "https://twitter.com/birmacher",
+			"linkedin": "https://www.linkedin.com/in/birmacher",
+			"description": ""
+		},
+		"bloodrabbit3": {
+			"full_name": "Daniel Balla",
+			"position": "CCO",
+			"email_address": "danielballa@bitrise.io",
+			"twitter": "https://twitter.com/bloodrabbit3",
+			"linkedin": "https://hu.linkedin.com/in/balladaniel",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"doomsayer13": {
+			"full_name": "Norbert Kovach",
+			"position": "Frontend developer",
+			"email_address": "doomsayer13@gmail.com",
+			"twitter": "https://twitter.com/doomsayer13",
+			"linkedin": "https://www.linkedin.com/in/norbertkovach",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"erosdome": {
+			"full_name": "Jozsef Eros",
+			"position": "Frontend Wizard",
+			"email_address": "erosdome@gmail.com",
+			"twitter": "https://twitter.com/erosdome",
+			"linkedin": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"fiedlercap": {
+			"full_name": "Jordan Bocskov",
+			"position": "Board member",
+			"email_address": "",
+			"twitter": "https://twitter.com/fiedlercap",
+			"linkedin": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"klerence": {
+			"full_name": "Krisztian Godrei",
+			"position": "DevTool Ninja",
+			"email_address": "",
+			"twitter": "https://twitter.com/klerence",
+			"linkedin": "https://www.linkedin.com/in/krisztiangodrei",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"szigetlakizsolt": {
+			"full_name": "Zsolt Szigetlaki",
+			"position": "Strategic Advisor",
+			"email_address": "",
+			"twitter": "http://twitter.com/szigetlakizsolt",
+			"linkedin": "https://www.linkedin.com/pub/zsolt-szigetlaki/31/95/663",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"vasarhelyia": {
+			"full_name": "Agnes Vasarhelyi",
+			"position": "Developer Advocate",
+			"email_address": "agnes@bitrise.io",
+			"twitter": "https://twitter.com/vasarhelyia",
+			"linkedin": "https://www.linkedin.com/in/agnes-vasarhelyi-4811966b",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"viktorbenei": {
+			"full_name": "Viktor Benei",
+			"position": "CTO",
+			"email_address": "viktorbenei@bitrise.io",
+			"twitter": "https://twitter.com/viktorbenei",
+			"linkedin": "https://www.linkedin.com/in/viktorbenei",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}
+	}
+}
