@@ -1,5 +1,5 @@
 node_modules/
 npm-debug.log*
 newrelic_agent.log
-content/data/*
-content/images/*
+content/data/
+content/images/
