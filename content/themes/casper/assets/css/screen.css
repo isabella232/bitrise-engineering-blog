@@ -572,6 +572,14 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 16px;
 }
 
+.content .articles-addon .articles-addon-inner section.subscribe .subscribe-response {
+    color: white;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    line-height: 16px;
+}
+
 .content .articles-addon .articles-addon-inner section.subscribe .subscribe-form  {
     margin: 20px 0;
     display: block;
