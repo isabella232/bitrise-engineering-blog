@@ -1,10 +1,10 @@
 {
-  "name": "ghost-on-heroku",
-  "description": "Just a blogging platform on Heroku.",
+  "name": "bitrise-engineering-blog",
+  "description": "Bitrise engineering blog",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vasarhelyia/ghost-on-heroku.git"
+    "url": "git://github.com/bitrise-io/bitrise-engineering-blog.git"
   },
   "bugs": "https://github.com/TryGhost/Ghost/issues",
   "private": true,
