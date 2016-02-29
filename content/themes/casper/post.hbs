@@ -118,59 +118,15 @@
             <section class="search">
                 <h4>search</h4>
             </section>
-            <section class="subscribe">
-                <h4>Sign up to our newsletter!</h4>
-                <p>Weekly content about the technical challenges we face during the development of Bitrise </p>
-                <form action="//bitrise.us1.list-manage.com/subscribe/post?u=10475802f9491c548b775cdc9&amp;id=3fc072fa24" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribe-form" target="_blank" novalidate>
-                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email"></input>
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_10475802f9491c548b775cdc9_3fc072fa24" tabindex="-1" value=""></div>
-                  <button type="submit" value="Subscribe" name="subscribe" id="subscribe">Subscribe</button>
-                  <div id="mce-responses" class="subscribe-response">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>
-                </form>
-                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-            </section>
-            <section>
-                <li class="top first">
-                    <div class="icon rss">
-                        <a href="/rss" target="_blank">Atom feed</a>
-                    </div>
-                </li>
-                <li class="top">
-                    <div class="icon twitter">
-                        <a href="https://twitter.com/bitrise" target="_blank">Twitter</a>
-                    </div>
-                </li>
-                <li class="top">
-                    <div class="icon github">
-                        <a href="https://github.com/bitrise-io" target="_blank">Github</a>
-                    </div>
-                </li>
-                <li class="top">
-                    <div class="icon bitrise">
-                        <a href="https://bitrise.io" target="_blank">Bitrise.io</a>
-                    </div>
-                </li>
-                <li class="top last">
-                    <div class="icon updates">
-                        <a href="http://blog.bitrise.io/" target="_blank">Bitrise News</a>
-                    </div>
-                </li>
-            </section>
-            <h3>Tags</h3>
-            <ul class="tags">
-                {{#get "tags" limit="all"}}
-                    {{#if tags}}
-                        {{#foreach tags}}
-                            <li>
-                                <a href="{{url}}" title="{{name}}" class="tag-{{id}}">{{name}}</a>
-                            </li>
-                        {{/foreach}}
-                    {{/if}}
-                {{/get}}
-            </ul>
+
+            <!-- Subscription section -->
+            {{> "subscribe"}}
+
+            <!-- Sidemenu -->
+            {{> "menu"}}
+
+            <!-- Tag box -->
+            {{> "tags"}}
         </div>
     </div>
     <div class="clear"></div>
