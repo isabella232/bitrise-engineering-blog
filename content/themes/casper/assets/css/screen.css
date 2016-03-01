@@ -1574,14 +1574,14 @@ body:not(.post-template) .post-title {
     box-sizing: border-box;
     display: block;
     position: absolute;
-    top: -40px;
+    top: -60px;
     left: 50%;
     margin-left: -40px;
     width: 80px;
     height: 80px;
     border-radius: 100%;
     overflow: hidden;
-    padding: 6px;
+    padding: 3px;
     background: #fff;
     z-index: 2;
     box-shadow: #E7EEF2 0 0 0 1px;
@@ -2344,10 +2344,6 @@ body:not(.post-template) .post-title {
 
     .page-number {
         display: block;
-    }
-
-    .site-footer {
-        margin-top: 3rem;
     }
 
     .author-profile {
