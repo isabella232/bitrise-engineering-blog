@@ -1,0 +1,12 @@
+<h3>Tags</h3>
+<ul class="tags">
+    {{#get "tags" limit="all"}}
+        {{#if tags}}
+            {{#foreach tags}}
+                <li>
+                    <a href="{{url}}" title="{{name}}" class="tag-{{id}}">{{name}}</a>
+                </li>
+            {{/foreach}}
+        {{/if}}
+    {{/get}}
+</ul>
