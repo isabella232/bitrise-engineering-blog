@@ -1,3 +1,5 @@
+__This site is no longer available! For the official [bitrise.io](https://www.bitrise.io) blog please go to [blog.bitrise.io](http://blog.bitrise.io), and for other news, announcements & how-to guides visit [discuss.bitrise.io](https://discuss.bitrise.io).__
+
 # Bitrise Engineering Blog
 
 We decided to share some insights about our daily engineering at [Bitrise](https://bitrise.io) frequently. This repository holds the code behind the blog.
