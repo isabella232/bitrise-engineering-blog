@@ -13,13 +13,17 @@
     "ghost": "0.7.6",
     "ghost-s3-storage": "~0.2.2",
     "ncp": "^2.0.0",
-    "newrelic": "^1.25.1",
-    "pg": "latest"
+    "newrelic": "^4.0.0",
+    "pg": "latest",
+    "snyk": "^1.230.6"
   },
   "engines": {
     "node": "~0.10.0"
   },
   "scripts": {
-    "start": "node server.js"
-  }
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

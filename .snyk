@@ -1,0 +1,105 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - ghost > body-parser > debug:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > compression > debug:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > debug:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > morgan > debug:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > finalhandler > debug:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > send > debug:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > serve-static > send > debug:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > cookie-session > debug:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:handlebars:20151207':
+    - ghost > express-hbs > handlebars:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:hoek:20180212':
+    - ghost > sqlite3 > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > request > hawk > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > request > hawk > boom > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > request > hawk > sntp > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > sqlite3 > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > sqlite3 > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > sqlite3 > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:lodash:20180130':
+    - ghost > lodash:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > cheerio > lodash:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > ghost-gql > lodash:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:mime:20170907':
+    - ghost > express > send > mime:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > nodemailer > mailcomposer > mime:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > serve-static > send > mime:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:minimatch:20160620':
+    - ghost > express-hbs > readdirp > minimatch:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > knex > liftoff > findup-sync > glob > minimatch:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:moment:20160126':
+    - ghost > moment:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:ms:20170412':
+    - ghost > body-parser > debug > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > compression > debug > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > cookie-session > debug > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > debug > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > morgan > debug > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > send > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > finalhandler > debug > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > send > debug > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > serve-static > send > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+    - ghost > express > serve-static > send > debug > ms:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:negotiator:20160616':
+    - ghost > express > accepts > negotiator:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:request:20160119':
+    - ghost > request:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:tough-cookie:20170905':
+    - ghost > request > tough-cookie:
+        patched: '2019-10-04T12:49:05.164Z'
+  'npm:tunnel-agent:20170305':
+    - ghost > request > tunnel-agent:
+        patched: '2019-10-04T12:49:05.164Z'
